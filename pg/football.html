@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <title>Football</title>
+    <link rel='shortcut icon' type='image/x-icon' href='../img/ftb.ico' />
+    <meta charset="utf-8">
+    <meta name="author" content="Dalislimen production">
+    <meta name="description" content="Dali production" />
+    <link rel="stylesheet" type="text/css" href="../css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/hover.css" />
+    <link rel="stylesheet" type="text/css" href="../css/metro-colors.css" />
+    <link rel="stylesheet" type="text/css" href="../css/metro-icons.css" />
+    <link rel="stylesheet" type="text/css" href="../css/metro-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="../css/metro-rtl.css" />
+    <link rel="stylesheet" type="text/css" href="../css/metro-schemes.css" />
+    <link rel="stylesheet" type="text/css" href="../css/metro.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+</head>
+
+<body>
+    <br><br><br><br>
+
+
+    <!--the menu bar -->
+    <section>
+        <div class="app-bar darcula fixed-top  block-shadow-info">
+            <a class="app-bar-element block-shadow-info">
+                <span id="toggle-tiles-dropdown" class="mif-apps mif-2x block-shadow-info ani-shuttle ani-slow"></span>
+                <div class="app-bar-drop-container" data-role="dropdown" data-toggle-element="#toggle-tiles-dropdown" data-no-close="false" style="width: 324px;">
+                    <div class="tile-container bg-white">
+                        <div class="tile-small bg-cyan">
+                            <div class="tile-content iconic">
+                                <span class="icon mif-onedrive"></span>
+                            </div>
+                        </div>
+                        <div class="tile-small bg-red">
+                            <div class="tile-content iconic">
+                                <span class="icon mif-google"></span>
+                            </div>
+                        </div>
+                        <div class="tile-small bg-blue">
+                            <div class="tile-content iconic">
+                                <span class="icon mif-facebook"></span>
+                            </div>
+                        </div>
+                        <div class="tile-small bg-blue">
+                            <div class="tile-content iconic">
+                                <span class="icon mif-twitter"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="app-bar-element block-shadow-info">
+                Social media
+            </a>
+            <div class="app-bar-element place-right block-shadow-info">
+                <a class="dropdown-toggle fg-white"><span class="mif-enter block-shadow-info"></span> سجل في الموقع</a>
+                <div class="app-bar-drop-container bg-white fg-dark place-right" data-role="dropdown" data-no-close="true">
+                    <div class="padding20">
+                        <form>
+                            <h4 class="text-light">التسجيل في الموقع...</h4>
+                            <div class="input-control text">
+                                <span class="mif-user prepend-icon"></span>
+                                <input type="text">
+                            </div>
+                            <div class="input-control text">
+                                <span class="mif-lock prepend-icon"></span>
+                                <input type="password">
+                            </div>
+                            <label class="input-control checkbox small-check">
+                        <input type="checkbox">
+                        <span class="check"></span>
+                        <span class="caption">تذكرني</span>
+                    </label>
+                            <div class="form-actions">
+                                <button class="button">تسجيل</button>
+                                <button class="button link">إلغاء</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of the menu bar -->
+    <!--the second header-->
+    <section class="app-bar darcula opacity block-shadow-success">
+        <a class="app-bar-element ">
+            <span class="mif-menu mif-2x text-shadow"></span>
+        </a>
+        <a class="app-bar-element animated infinite fadeIn text-shadow" href="../index.html">
+            Eleve.tn
+        </a>
+        <a class="app-bar-element text-shadow" style="float:right;">
+            <span class="mif-dribbble mif-2x ani-spin ani-slow"></span>
+        </a>
+        <a class="app-bar-element text-shadow" style="float:right;">
+               كرة القدم
+            </a>
+
+
+    </section>
+    <!--end of the second header-->
+    <!--the sidebar-->
+    <nav class="sidebar2 opacity block-shadow-success" style="float:right;">
+        <ul class="sidebar-menu small_dropdown">
+            <!-- the menu bar -->
+            <!--the government-->
+            <li>
+                <a class="dropdown-toggle block-shadow-success">الوزارة <span class="mif-library mif-x m"></span></a>
+                <ul class="d-menu" data-role="dropdown">
+                    <li><a href="desisions.html">قرارات وزارية <span class="mif-layers mif-x m"></span></a></li>
+                    <li><a href="news.html">آخر المستجدات <span class="mif-power mif-x m"></span></a></li>
+                    <li><a href="caleder.html">روزنامات <span class="mif-calendar mif-x m"></span></a></li>
+                </ul>
+            </li>
+            <!--the government-->
+            <li>
+                <a class="dropdown-toggle block-shadow-success">الأساتذة و المعلمين <span class="mif-users mif-x m"></span></a>
+                <ul class="d-menu" data-role="dropdown">
+                    <li><a href="defence.html">النقابات<span class="mif-help mif-x m"></span></a></li>
+                    <li><a href="work.html">الإنتدابات <span class="mif-user-check mif-x m"></span></a></li>
+                    <li><a href="demande.html">تطورات مناقشة المطالب <span class="mif-search mif-x m"></span></a></li>
+                </ul>
+            </li>
+            <!--government end-->
+            <!--Social space-->
+            <li>
+                <a class="dropdown-toggle block-shadow-success">الملتقى الإجتماعي <span class="mif-link mif-x mif-pass-slow m"></span></a>
+                <ul class="d-menu" data-role="dropdown">
+                    <li>
+                        <a href="cultsoc.html">ثقافة المجتمع المدني <span class="mif-tree mif-x m"></span></a>
+                    </li>
+                    <li>
+                        <a href="movesoc.html">الحراك الإجتماعي <span class="mif-eye mif-x m"></span></a>
+                    </li>
+                    <li>
+                        <a href="stvoice.html">صوت التلميذ <span class="mif-paper-plane mif-x m"></span></a>
+                    </li>
+                    <li>
+                        <a href="eprob.html">مشاكل التعليم في تونس <span class="mif-key mif-x m"></span></a>
+                    </li>
+                </ul>
+            </li>
+            <!--end of social space-->
+            <!--sport space-->
+            <li>
+                <a class="dropdown-toggle block-shadow-success">الملتقى الرياضي <span class="mif-organization mif-x m"></span></a>
+                <ul class="d-menu" data-role="dropdown">
+                    <li>
+                        <a href="football.html">كرة القدم <span class="mif-dribbble mif-x m"></span></a>
+                    </li>
+                    <li>
+                        <a href="handball.html">كرة اليد <span class="mif-dribbble mif-x m"></a>
+                    </li>
+                    <li>
+                        <a href="basketball.html">كرة السلة <span class="mif-dribbble mif-x m"></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-togglebg-red">الرياضات الفردية <span class="mif-user mif-x m"></a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="karate.html">الكاراتيه</a>
+                            </li>
+                            <li>
+                                <a href="taekwondo.html">التايكواندو</a>
+                            </li>
+                            <li>
+                                <a href="konkfu.html">الكونكفو</a>
+                            </li>
+                            <li>
+                                <a href="fight.html">المصارعة الرومانية</a>
+                            </li>
+                            <li>
+                                <a href="judo.html">الجودو</a>
+                            </li>
+                            <li>
+                                <a href="tennis.html">التنس</a>
+                            </li>
+                            <li>
+                                <a href="ttennis.html">تنس الطاولة</a>
+                            </li>
+                            <li>
+                                <a href="cycle.html">الدراجات الهوائية</a>
+                            </li>
+                            <li>
+                                <a href="run.html">العدو</a>
+                            </li>
+                            <li>
+                                <a href="natation.html">السباحة</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <!--end of sport space-->
+            <!--cultural space-->
+            <li>
+                <a class="dropdown-toggle block-shadow-success">الملتقى الثقافي <span class="mif-looks mif-x m"></a>
+                <ul class="d-menu" data-role="dropdown">
+                    <li>
+                        <a href="poet.html">الشعر <span class="mif-file-text mif-x m"></a>
+                    </li>
+                    <li>
+                        <a href="write.html">الكتابة <span class="mif-pencil mif-x m"></a>
+                    </li>
+                    <li>
+                        <a href="music.html">الموسيقى <span class="mif-music mif-x m"></a>
+                    </li>
+                    <li>
+                        <a href="paint.html">الرسم <span class="mif-palette mif-x m"></a>
+                    </li>
+                    <li>
+                        <a href="teath.html">المسرح <span class="mif-layers mif-x m"></a>
+                    </li>
+                    <li>
+                        <a href="cinema.html">السينما <span class="mif-film mif-x m"></a>
+                    </li>
+                    <li>
+                        <a href="graphity.html">الغرافيتي <span class="mif-paint mif-x m"></a>
+                    </li>
+                </ul>
+            </li>
+            <!--end of cultural space-->
+            <!--primary school-->
+            <li>
+                <a href="#" class="dropdown-toggle  block-shadow-success">التعليم الأساسي <span class="mif-star-empty mif-x m"></a>
+                <ul class="d-menu" data-role="dropdown">
+                    <!--1st class-->
+                    <li><a class="dropdown-toggle">السنة الأولى</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="c1.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="e1.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end 1st class-->
+                    <!-- 2nd class -->
+                    <li><a class="dropdown-toggle">السنة الثانية</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="c2.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="e2.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end 2nd class-->
+                    <!--3rd class-->
+                    <li><a class="dropdown-toggle">السنة الثالثة</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="c3.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="e3.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end 3rd class-->
+                    <!--4th class-->
+                    <li><a class="dropdown-toggle ">السنة الرابعة</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="c4.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="e4.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end 4th class-->
+                    <!--5th class -->
+                    <li><a class="dropdown-toggle ">السنة الخامسة</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="c5.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="e5.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end 5th class-->
+                    <!--6th class-->
+                    <li><a class="dropdown-toggle">السنة السادسة</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="c6.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="e6.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end 6th class-->
+                </ul>
+            </li>
+            <!-- end of primary school -->
+            <!--prep school-->
+            <li>
+                <a href "#" class="dropdown-toggle  block-shadow-success">التعليم الإعدادي <span class="mif-star-half mif-x m"></a>
+                <ul class="d-menu" data-role="dropdown">
+                    <!--7th class-->
+                    <li>
+                        <a class="dropdown-toggle">السنة السابعة</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="c7.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="e7.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end of 7th class-->
+                    <!--8th class-->
+                    <li><a class="dropdown-toggle">السنة الثامنة</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="c8.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="e8.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end of 8th class-->
+                    <!--9th class-->
+                    <li><a class="dropdown-toggle">السنة التاسعة</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="c9.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="e9.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end of 9th class-->
+                </ul>
+            </li>
+            <!--end of prep school-->
+            <!--secondry school -->
+            <li>
+                <a href "#" class="dropdown-toggle  block-shadow-success">التعليم الثانوي <span class="mif-star-full mif-x m"></a>
+                <ul class="d-menu" data-role="dropdown">
+                    <!--1st class-->
+                    <li><a class="dropdown-toggle">الأولى ثانوي</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="cprem.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="eprem.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end of 1st class-->
+                    <!--2nd class-->
+                    <li><a class="dropdown-toggle">الثانية ثانوي</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="cdeux.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="edeux.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end of 2nd class-->
+                    <!--3rd class-->
+                    <li><a class="dropdown-toggle">الثالثة ثانوي</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="ctrois.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="etrois.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end of third class-->
+                    <!--baccalaureate -->
+                    <li><a class="dropdown-toggle">الباكالوريا</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="cbac.html">دروس</a>
+                            </li>
+                            <li>
+                                <a href="ebac.html">إمتحانات</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--end of baccalaureate -->
+                </ul>
+            </li>
+            <!-- end of scondry school-->
+            <a href "#" class="block-shadow-success"><img src="../img/ftb.jpg"></a>
+            <li>
+                <a class="actor button success block-shadow-success" href="" style="border-radius:20px;">حمل التطبيق</a>
+            </li>
+
+
+        </ul>
+    </nav>
+    <!--end of the sidebar-->
+    <!--Draggable panel-->
+    <div class="panel">
+        <div class="heading">
+            <span class="mif mif-dribbble mif-2x ani-spin ani-slow" style="float:right;"></span>
+            <span class="title animated infinite fadeIn" style="float:right;">كرة القدم</span>
+
+        </div>
+        <div class="tile-container bg-darkCobalt">
+            <div class="tile fg-white" data-role="tile">
+                <div class="tile-content slide-up">
+                    <div class="slide">
+                        <img src="images/2.jpg" data-role="fitImage" data-format="square">
+                    </div>
+                    <div class="slide-over op-cyan text-small padding10">
+
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile-wide fg-white" data-role="tile">
+                <div class="tile-content slide-up">
+                    <div class="slide">
+                        <img src="images/3.jpg" data-role="fitImage" data-format="hd">
+                    </div>
+                    <div class="slide-over op-orange text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile-wide fg-white" data-role="tile">
+                <div class="tile-content slide-up-2">
+                    <div class="slide">
+                        <img src="images/3.jpg" data-role="fitImage" data-format="fill">
+                    </div>
+                    <div class="slide-over bg-orange text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile fg-white" data-role="tile">
+                <div class="tile-content slide-down">
+                    <div class="slide">
+                        <img src="images/4.jpg" data-role="fitImage" data-format="square">
+                    </div>
+                    <div class="slide-over op-cyan text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile-wide fg-white" data-role="tile">
+                <div class="tile-content slide-down">
+                    <div class="slide">
+                        <img src="images/5.jpg" data-role="fitImage" data-format="hd">
+                    </div>
+                    <div class="slide-over op-green text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile-wide fg-white" data-role="tile">
+                <div class="tile-content slide-down-2">
+                    <div class="slide">
+                        <img src="images/5.jpg" data-role="fitImage" data-format="fill">
+                    </div>
+                    <div class="slide-over bg-green text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile fg-white bg-transparent " data-role="tile">
+                <div class="tile-content slide-down-2 ">
+                    <div class="slide">
+                        <img src="images/spface2.jpg" data-role="fitImage" data-format="square">
+                    </div>
+                    <div class="slide-over bg-green text-small padding10 ">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile fg-white" data-role="tile">
+                <div class="tile-content slide-left">
+                    <div class="slide">
+                        <img src="images/4.jpg" data-role="fitImage" data-format="square">
+                    </div>
+                    <div class="slide-over op-cyan text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile-wide fg-white" data-role="tile">
+                <div class="tile-content slide-left">
+                    <div class="slide">
+                        <img src="images/5.jpg" data-role="fitImage" data-format="hd">
+                    </div>
+                    <div class="slide-over op-green text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile fg-white" data-role="tile">
+                <div class="tile-content slide-left-2">
+                    <div class="slide">
+                        <img src="images/5.jpg" data-role="fitImage" data-format="fill">
+                    </div>
+                    <div class="slide-over op-green text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile fg-white" data-role="tile">
+                <div class="tile-content slide-right">
+                    <div class="slide">
+                        <img src="images/1.jpg" data-role="fitImage" data-format="square">
+                    </div>
+                    <div class="slide-over op-cyan text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile-wide fg-white" data-role="tile">
+                <div class="tile-content slide-right">
+                    <div class="slide">
+                        <img src="images/2.jpg" data-role="fitImage" data-format="hd">
+                    </div>
+                    <div class="slide-over op-green text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile-wide fg-white" data-role="tile">
+                <div class="tile-content slide-right-2">
+                    <div class="slide">
+                        <img src="images/1.jpg" data-role="fitImage" data-format="fill">
+                    </div>
+                    <div class="slide-over op-green text-small padding10">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile-wide fg-white" data-role="tile">
+                <div class="tile-content zooming">
+                    <div class="slide">
+                        <img src="images/5.jpg">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+
+            <div class="tile-wide fg-white" data-role="tile">
+                <div class="tile-content zooming-out">
+                    <div class="slide">
+                        <img src="images/4.jpg">
+                    </div>
+                    <div class="tile-label"></div>
+                </div>
+            </div>
+            <div data-role="preloader" data-type="metro" data-style="color"></div>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <section class="app-bar fixed-bottom opacity block-shadow-info ">
+
+        <a class="app-bar-element block-shadow-info ">
+            في إتجاه مستقبل أفضل للتعليم في تونس
+        </a>
+
+        <a class="app-bar-element block-shadow-info ">
+            <span class="mif-directions-bike mif-2x block-shadow-info "></span>
+        </a>
+
+        <a class="app-bar-element block-shadow-info ">
+            معا نحو حلم
+        </a>
+        <a class="app-bar-element block-shadow-info ">
+            <span class="mif-user-check mif-2x block-shadow-info "></span>
+        </a>
+        <a class="app-bar-element block-shadow-info ">
+             التلميذ التونسي بحاجة للإحاطة التربوية             
+        </a>
+        <a class="app-bar-element block-shadow-info ">
+            <span class="mif-users mif-2x block-shadow-info "></span>
+        </a>
+        <a class="app-bar-element block-shadow-info ">
+        مشروع 2016/2017 <span class="mif-file-text mif-2x block-shadow-info "></span> نورهان الصولي و وفاء العبدلي و محمد الدريدي
+        </a>
+    </section>
+    <!--end of the footer-->
+
+
+    <script src="../js/jquery.js "></script>
+    <script src="../js/metro.js "></script>
+    <script src="../js/typed.js "></script>
+    <script src="../js/main.js "></script>
+    <script src="../js/jquery.funnyText.min.js "></script>
+</body>
+
+</html>

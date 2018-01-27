@@ -1,0 +1,103 @@
+/*general css*/
+
+body {
+    width: 80%;
+    display: block;
+    margin: auto;
+    background: #ece8ef;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    float: right;
+    color: #5853a3;
+    font-size: 20px;
+}
+
+div.dv {
+    float: right;
+    color: black;
+    text-align: center;
+}
+
+.d-menu {
+    float: right;
+}
+
+span.m {
+    float: right;
+}
+
+
+/*header*/
+
+header.section {
+    text-align: center;
+}
+
+p.tit {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+/*body*/
+
+aside {
+    float: right;
+}
+
+div.d-menu {
+    float: right;
+}
+
+
+/*Backgrounds*/
+
+.sidebar2 {
+    background: #f5f5f5;
+    length: 100%;
+}
+
+.fixed-bottom {
+    background: #1b1b1b;
+}
+
+.fixed-bottom {
+    background: #1b1b1b;
+}
+
+.tile-large {
+    background: #5853a3;
+    float: right;
+}
+
+.tile {
+    background: #ea526f;
+    float: right;
+}
+
+.tile-wide {
+    background: #2daeff;
+    float: right;
+}
+
+
+/*panel*/
+
+.panel {
+    width: 75.99%;
+}
+
+.rating,
+.preloader {
+    float: right;
+}
+
+.app-bar,
+.dracula {
+    border-radius: 20px;
+}
